@@ -1,0 +1,100 @@
+/* Fonts and colors */
+
+h1 {
+	color: #ffbcbc;
+	font-weight: lighter;
+	font-size: -webkit-xx-large
+}
+
+body {
+	background-color: #fcf8f3;
+	color: rgb(150, 150, 150);
+	font-family: "Sen", sans-serif  
+}
+
+h2 {
+	color : #b7efcd;
+	font-family: 'Nunito', sans-serif;
+	font-weight: lighter
+}
+
+h3 {
+	color :#ffbcbc;
+	font-family: 'Nunito', sans-serif, 400;
+	font-weight: lighter;
+	font-size: x-large
+}
+
+a {
+	text-decoration: none;
+	color: rgb(100,100,100);
+	font-weight: bolder
+}
+
+a:hover {
+	color: #ffbcbc
+}
+
+/* Divisions and specific changes */
+
+#img-circle {
+	width:150px;
+	height: 150px;
+	border-radius: 50%
+}
+
+.principal {
+    border-radius: 0px;
+    background-color: : white
+}
+
+.regular {
+    border-radius: 8px;
+    background: floralwhite;
+    padding: 20px;
+    margin: 25px 230px auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#btn-pink {
+	background-color: #ffbcbc;
+	color : white;
+	padding : 15px 20px;
+	margin-bottom: 100px; /* I can't figure out why I can't add margin between the pink button and the bottom border of the div */
+	border-radius: 8px
+}
+
+#btn-pink:hover {
+	background-color: #b7efcd ;
+	color : white
+}
+
+.list-inline {
+	padding-left: 0px;
+	list-style: none;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #ffbcbc
+}
+
+.list-inline i:hover {
+	color: #b7efcd
+}
+
+#introduction p {
+	margin: 25px
+}
+
+#card-media {
+	margin-bottom: 50px
+}	
+
+
